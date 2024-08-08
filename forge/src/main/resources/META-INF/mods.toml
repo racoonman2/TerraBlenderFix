@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+modId="terrablenderfix"
+displayName="TerraBlenderFix"
+version="0.0.1"
+authors="raccoonman"
+credits="raccoonman, the TerraBlender devs for making the original mod"
+logoFile="logo.png"
+description="A continuation of https://github.com/TerraForged/TerraForged"
+
+[[dependencies.terrablenderfix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.terrablenderfix]]
+	modId = "minecraft"
+	mandatory = true
+	versionRange = "[1.20.1,)"
+	ordering = "NONE"
+	side = "BOTH"
+	
+[[dependencies.terrablenderfix]]
+	modId = "terrablender"
+	mandatory = true
+	versionRange = "[3.0.1.2,)"
+	ordering = "NONE"
+	side = "BOTH"

@@ -1,0 +1,8 @@
+accessWidener	v2	named
+
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$Condition
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$SurfaceRule
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$SequenceRuleSource
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$SequenceRule
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$TestRule
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$Context

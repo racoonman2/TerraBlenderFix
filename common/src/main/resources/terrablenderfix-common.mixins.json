@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "raccoonman.terrablenderfix.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  	"MixinContext",
+  	"MixinSequenceRuleSource",
+  	"MixinBiomeConditionSource",
+  	"MixinChunkStatus",
+	"MixinSurfaceRuleManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

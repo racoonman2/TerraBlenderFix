@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "terrablenderfix",
+  "version": "${version}",
+  "name": "TerraBlenderFix",
+  "description": "Fixes a performance issue related to TerraBlender's surface rule api",
+  "authors": [
+	"racconman"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "raccoonman.terrablenderfix.fabric.TBFixFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "minecraft": ">=1.20.1",
+    "terrablender": ">=3.0.1.2"
+  },
+  "mixins": [
+    "terrablenderfix-common.mixins.json"
+  ]
+}

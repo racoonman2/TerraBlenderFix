@@ -1,0 +1,17 @@
+architectury {
+    common("forge", "fabric")
+}
+
+loom {
+    accessWidenerPath = file("src/main/resources/terrablenderfix.accesswidener")
+}
+
+base {
+    archivesName = "${mod_id}-common-${minecraft_version}"
+}
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+	compileOnly "com.github.glitchfiend:TerraBlender-forge:${rootProject.minecraft_version}-${rootProject.terrablender_version}"
+	compileOnly "com.electronwill.night-config:toml:3.6.7"
+}
