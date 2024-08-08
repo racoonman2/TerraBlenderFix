@@ -7,7 +7,7 @@
   	"MixinContext",
   	"MixinSequenceRuleSource",
   	"MixinBiomeConditionSource",
-  	"MixinChunkStatus",
+  	"MixinChunkGenerator",
 	"MixinSurfaceRuleManager"
   ],
   "injectors": {

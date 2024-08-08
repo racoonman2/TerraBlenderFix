@@ -1,4 +1,4 @@
-package raccoonman.reterraforged.forge;
+package raccoonman.terrablenderfix.forge;
 
 import net.minecraftforge.fml.common.Mod;
 import raccoonman.terrablenderfix.TBFixCommon;
